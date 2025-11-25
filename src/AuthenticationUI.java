@@ -12,9 +12,7 @@ public class AuthenticationUI {
 
     public AuthenticationUI(Stage primaryStage) {
         container = new VBox(20);
-        container.setPadding(new Insets(40));
         container.setAlignment(Pos.CENTER);
-        container.setStyle("-fx-background-color: linear-gradient(to bottom, #3498db, #2c3e50);");
 
         VBox loginBox = new VBox(15);
         loginBox.setMaxWidth(350);

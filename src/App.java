@@ -17,7 +17,7 @@ public class App extends Application {
 
         primaryStage.setTitle("Finance Tracker - Login");
         primaryStage.setScene(loginScene);
-        primaryStage.setResizable(false);
+        primaryStage.setResizable(true);
         primaryStage.show();
     }
 

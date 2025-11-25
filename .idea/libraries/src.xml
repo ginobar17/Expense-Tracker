@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/sqlite-jdbc-3.51.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ExpenseTracker1/lib/javafx-sdk-17.0.17/lib/javafx-swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

@@ -35,9 +35,6 @@ public class FinanceTrackerUI {
         // Right section
         mainLayout.setRight(createInputSection());
 
-        // Bottom section
-        mainLayout.setBottom(createSummarySection());
-
         loadTransactionsFromDatabase();
     }
 
@@ -209,21 +206,6 @@ public class FinanceTrackerUI {
                 amountField, paymentCombo, addButton,
                 deleteButton, exportButton);
         return inputSection;
-    }
-
-    private VBox createSummarySection() {
-        VBox summary = new VBox(10);
-        summary.setPadding(new Insets(20, 0, 0, 0));
-
-        Label summaryTitle = new Label("Category Summary");
-        summaryTitle.setFont(Font.font("System", FontWeight.SEMI_BOLD, 14));
-
-        ListView<String> summaryList = new ListView<>();
-        summaryList.setPrefHeight(100);
-        summaryList.setStyle("-fx-background-color: white; -fx-background-radius: 10;");
-
-        summary.getChildren().addAll(summaryTitle, summaryList);
-        return summary;
     }
 
     private void handleAddTransaction(ComboBox<String> typeCombo, ComboBox<String> categoryCombo,
